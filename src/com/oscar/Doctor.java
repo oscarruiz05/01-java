@@ -17,6 +17,6 @@ public class Doctor extends User{
 
     @Override
     public String toString() {
-        return super.toString() + "\nSpeciality: "+specility;
+        return "\n\nDoctor\n"+super.toString() + "\nSpeciality: "+specility;
     }
 }

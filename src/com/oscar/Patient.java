@@ -41,4 +41,9 @@ public class Patient extends User {
     public void setBlood(String blood) {
         this.blood = blood;
     }
+
+    @Override
+    public String toString() {
+        return "Paciente \n"+super.toString();
+    }
 }
